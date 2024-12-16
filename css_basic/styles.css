@@ -1,24 +1,18 @@
-body {
+body, main {
     display: flex;
-    flex-direction: column;
-    background-color: DodgerBlue;
 }
-
+body {
+    flex-direction: column;
+}
 main {
-    display: flex;
     flex-direction: row;
     flex: auto;
-    background-color: rgb(90, 36, 36);
 }
-
 article {
+    flex: 2;
     overflow-y: auto;
-    background-color: aqua;
-    flex: 2
 }
-
 aside {
+    flex: 1;
     overflow-y: auto;
-    background-color: blueviolet;
-    flex: 1
 }
