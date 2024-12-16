@@ -2,8 +2,11 @@ body,
 main {
     display: flex;
 }
-
+header {
+    background-color: blueviolet;
+}
 body {
+    background-color: dodgerblue;
     flex-direction: column;
 }
 
@@ -14,13 +17,13 @@ main {
 }
 
 article {
-
+    background-color: aqua;
     flex: 2;
     overflow-y: auto;
 }
 
 aside {
-
+    background-color: blanchedalmond;
     flex: 1;
     overflow-y: auto;
 }
