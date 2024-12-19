@@ -1,0 +1,20 @@
+header, .N {
+    background-image: url(Object.png);
+}
+header {
+display: flex;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+    background-color: rgb(13, 184, 184);
+   
+}
+
+ul {
+    display: flex;
+    flex-direction: right;
+    padding: auto;
+}
