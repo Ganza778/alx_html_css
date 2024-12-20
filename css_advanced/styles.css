@@ -23,7 +23,7 @@ h1 {
     height: 15px;
     left: 980px;
     top: 15px;
-    
+
 
 
 }
@@ -34,8 +34,8 @@ span {
     position: relative;
     top: -140px;
     font-size: 15px;
-    
-    
+
+
 }
 
 button {
@@ -253,10 +253,10 @@ li a {
 
 .L {
     color: white;
-    width: 234px; 
+    width: 234px;
     position: relative;
-    left: 550px; 
-    top: 40px;    
+    left: 550px;
+    top: 40px;
 }
 
 .M {
@@ -265,25 +265,86 @@ li a {
     top: 150px;
     right: 150px;
 }
- .O {
+
+.O {
     color: white;
     position: relative;
     width: 256px;
     top: 150px;
     left: -20px;
- }
- .P { 
+}
+
+.P {
     color: white;
     position: relative;
     width: 200px;
     font-size: 12;
     top: 150px;
     right: 50px;
- }
+}
 
- .Q {
+.Q {
     position: absolute;
     top: 330px;
-   height: 44px;
-   left: 612px;
+    height: 44px;
+    left: 612px;
+}
+
+.NVB {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+
+.R {
+    color: rgba(7, 22, 41, 1);
+    position: relative;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 75px;
+    width: 139px;
+    height: 30px;
+    left: 10px;
+    top: -35px;
+}
+
+.bread {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 100px;
+    gap: 200px;
+}
+
+.road {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 14px;
+    width: 390px;
+    top: -90px;
+    gap: 20px;
+
+}
+
+.PIO {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 14px;
+    width: 390px;
+    top: -90px;
+    gap: 20px;
+}
+
+.PH {
+    color: rgba(7, 22, 41, 1);
+    position: relative;
+    top: 20px;
+}
+
+.PD {
+    color: rgba(7, 22, 41, 0.5);
 }
