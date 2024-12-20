@@ -23,14 +23,19 @@ h1 {
     height: 15px;
     left: 980px;
     top: 15px;
+    
 
 
 }
 
 span {
+    justify-content: center;
     color: #FFFFFF;
     position: relative;
     top: -140px;
+    font-size: 15px;
+    
+    
 }
 
 button {
@@ -150,7 +155,7 @@ li a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: gray;
+    background-color: rgba(7, 22, 41, 0.18)s;
     height: 500px;
     gap: 50px;
 
@@ -161,6 +166,7 @@ li a {
     position: relative;
     top: 60px;
     left: 440px;
+    gap: 10px;
 }
 
 .D {
@@ -175,6 +181,7 @@ li a {
     height: 100px;
 
 }
+
 .foreground {
     position: absolute;
     width: 50px;
@@ -229,6 +236,54 @@ li a {
     top: -28px;
     gap: 1000px;
 }
+
 .S {
     color: #FFFFFF;
+}
+
+.KGN {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(7, 22, 41, 1);
+    position: relative;
+    height: 400px;
+    gap: 2px;
+}
+
+.L {
+    color: white;
+    width: 234px; 
+    position: relative;
+    left: 550px; 
+    top: 40px;    
+}
+
+.M {
+    position: relative;
+    left: 5px;
+    top: 150px;
+    right: 150px;
+}
+ .O {
+    color: white;
+    position: relative;
+    width: 256px;
+    top: 150px;
+    left: -20px;
+ }
+ .P { 
+    color: white;
+    position: relative;
+    width: 200px;
+    font-size: 12;
+    top: 150px;
+    right: 50px;
+ }
+
+ .Q {
+    position: absolute;
+    top: 330px;
+   height: 44px;
+   left: 612px;
 }
