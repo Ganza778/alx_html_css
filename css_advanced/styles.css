@@ -348,3 +348,45 @@ li a {
 .PD {
     color: rgba(7, 22, 41, 0.5);
 }
+
+.EP {
+    background-color: rgba(7, 22, 41, 1);
+    height: 249px;
+
+}
+
+.EF {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.EG {
+    position: relative;
+    width: 169px;
+    height: 30px;
+    top: 90px;
+    left: 165px;
+}
+
+.ED {
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    position: relative;
+    width: 130px;
+    height: 30px;
+    top: 90px;
+    left: -80px;
+    gap: 20px;
+}
+
+.EQ {
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    width: 96px;
+    height: 15px;
+    top: 150px;
+    left: 672px;
+    font-size: 12px;
+}
