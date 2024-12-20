@@ -34,8 +34,11 @@ span {
 }
 
 button {
-    background-color: purple;
+    background-color: rgba(194, 113, 255, 1);
     position: absolute;
+    width: 162px;
+    height: 44px;
+    border-radius: 22px;
     left: 44%;
     top: 400px;
 
@@ -47,7 +50,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     align-content: center;
+}
 
+.X {
+    width: 150px;
+    height: 48px;
 }
 
 ul {
@@ -86,7 +93,11 @@ li a {
     align-content: center;
     left: 217px;
     top: 600px;
-    gap: 50px;
+    gap: 100px;
+}
+
+.Y {
+    border-radius: 90px;
 }
 
 .home {
@@ -133,4 +144,91 @@ li a {
     position: relative;
     top: 65px;
     left: 50px;
+}
+
+.NGA {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: gray;
+    height: 500px;
+    gap: 50px;
+
+}
+
+.C {
+    display: flex;
+    position: relative;
+    top: 60px;
+    left: 440px;
+}
+
+.D {
+    position: relative;
+    left: -140px;
+    top: 200px;
+    bottom: 10px;
+}
+
+.E {
+    width: 160px;
+    height: 100px;
+
+}
+.foreground {
+    position: absolute;
+    width: 50px;
+    top: 23px;
+    right: 55px;
+}
+
+.F {
+    width: 30px;
+}
+
+.G {
+    position: relative;
+    display: flex;
+    gap: 5px;
+}
+
+.H {
+    color: rgba(194, 113, 255, 1);
+    font-size: 8px;
+    position: relative;
+    left: 100px;
+    top: -44px;
+}
+
+.I {
+    font-size: 12px;
+
+}
+
+.J {
+    color: rgba(7, 22, 41, 0.5);
+    position: relative;
+    font-size: 10px;
+    width: 160px;
+
+
+}
+
+.K {
+    color: rgba(194, 113, 255, 1);
+    position: relative;
+    left: 40px;
+    top: -33;
+    font-size: 10px;
+}
+
+.fa-solid {
+    color: rgba(194, 113, 255, 1);
+    font-size: 8px;
+    position: relative;
+    top: -28px;
+    gap: 1000px;
+}
+.S {
+    color: #FFFFFF;
 }
