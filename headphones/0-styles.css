@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+/*header section*/
+header {
+    background-image: url(headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 210px;
+}
+
+.navbar img {
+    width: 140px;
+    height: 25px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    font-size: 12px;
+    gap: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #FF6565;
+}
+
+.headersection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerdiv {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 250px 50px;
+}
+
+.headerdiv div p {
+    text-align: center;
+    padding: 7px;
+}
+
+.headerdiv button {
+    color: white;
+    background-color: #FF6565;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 25px;
+}
+
+.headerdiv button:hover {
+    opacity: 0.9;
+}
+
+.headerdiv button:active {
+    opacity: 0.9;
+}
+
+.lorem {
+    font-size: 15px;
+    text-align: center;
+    padding: 90px 300px;
+}
+
+@media (max-width: 600px) {
+    .headerdiv {
+        margin: 50px;
+    }
+
+    .navbar {
+        padding: 30px;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar img {
+        margin: 0 0 0 110px;
+    }
+
+    .headerdiv div h1 {
+        text-align: center;
+        font-size: 20px;
+        width: 250px;
+    }
+
+    .headerdiv div p {
+        text-align: center;
+        font-size: 13px;
+        width: 230px;
+    }
+
+    .lorem {
+        font-size: 11px;
+        text-align: center;
+        padding: 20px 0;
+     width: 250px;
+    }
+
+    .headerdiv button {
+        font-size: 10px;
+        padding: 7px 5px;
+    }
+}
