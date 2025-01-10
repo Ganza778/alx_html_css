@@ -41,7 +41,8 @@ header {
     font-size: 12px;
     text-decoration: none;
 }
- .navbar ul li a:hover {
+
+.navbar ul li a:hover {
     color: #FF6565;
 }
 
@@ -52,15 +53,18 @@ header {
     justify-content: space-between;
     width: 30px;
     height: 25px;
-  }
-  .hamburger div {
+}
+
+.hamburger div {
     background-color: white;
     height: 4px;
     width: 100%;
-  }
-  #menu-toggle {
+}
+
+#menu-toggle {
     display: none;
-  }
+}
+
 .headersection {
     display: flex;
     flex-direction: column;
@@ -85,6 +89,7 @@ header {
     background-color: #FF6565;
     font-size: 12px;
     border-radius: 20px;
+    border-style: none;
     padding: 10px 20px;
     margin-top: 25px;
 }
@@ -107,26 +112,28 @@ header {
     header {
         background-position: 44% 0;
     }
+
     .navbar ul {
         display: none;
         flex-direction: column;
         text-align: center;
-      }
+    }
 
-      #menu-toggle:checked + .nav-links {
+    #menu-toggle:checked+.nav-links {
         display: flex;
-      }
-      .navbar ul.active {
-        display: flex;
-      }
+    }
 
-      .navbar ul li {
+    .navbar ul.active {
+        display: flex;
+    }
+
+    .navbar ul li {
         margin: 10px 0;
-      }
+    }
 
-      .hamburger {
+    .hamburger {
         display: flex;
-      }
+    }
 
 
     .headerdiv div h1 {
@@ -154,3 +161,31 @@ header {
     }
 }
 
+@media (min-width: 601px) {
+
+    header {
+        background-position: 44% 0;
+    }
+
+    .navbar {
+        padding: 25px 100px;
+    }
+
+    .lorem {
+        text-align: center;
+        font-size: 13px;
+        width: 1140px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .navbar {
+        padding: 25px 200px;
+    }
+
+    .lorem {
+        font-size: 15px;
+        text-align: center;
+        padding: 90px 250px;
+    }
+}

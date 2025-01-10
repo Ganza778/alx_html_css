@@ -161,6 +161,35 @@ header {
     }
 }
 
+@media (min-width: 601px) {
+
+    header {
+        background-position: 44% 0;
+    }
+
+    .navbar {
+        padding: 25px 100px;
+    }
+
+    .lorem {
+        text-align: center;
+        font-size: 13px;
+        width: 1140px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .navbar {
+        padding: 25px 200px;
+    }
+
+    .lorem {
+        font-size: 15px;
+        text-align: center;
+        padding: 90px 250px;
+    }
+}
+
 /* what we do...*/
 .main {
     display: flex;
@@ -220,6 +249,28 @@ header {
     .ipsum div p {
         font-size: 8px;
         width: 150px;
+    }
+}
+
+@media (min-width: 601px) {
+    .ipsum {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .ipsum {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ipsum div p {
+        padding: 20px 0px;
+        width: 200px;
+        text-align: center;
+        font-size: 14px;
     }
 }
 
@@ -321,6 +372,69 @@ header {
     }
 }
 
+@media (min-width: 601px) {
+    .container h1 {
+        font-size: 25px;
+        width: 400px;
+    }
+
+    .containerp {
+        font-size: 13px;
+        width: 610px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pentagon {
+        background-size: 150px;
+    }
+
+    .grid h2 {
+        font-size: 25px;
+    }
+    .grid p {
+        font-size: 12px;
+    }
+}
+@media (min-width: 1025px) {
+    .container h1 {
+        text-align: center;
+        font-size: 32px;
+        width: 600px;
+    }
+
+    .containerp {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .pentagon {
+        background-size: 160px;
+    }
+    .pentagon h2 {
+        font-size: 32px;
+        font-weight: bold;
+    }
+    
+    .pentagon p {
+        font-size: 15px;
+        padding: 20px;
+        width: 200px;
+    }
+}
+
+
+
+
+
 /*contuct us*/
 
 #contact {
@@ -392,6 +506,37 @@ input:focus {
     }
 }
 
+@media (min-width: 601px) {
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input {
+        width: 400px;
+    }
+
+    .button {
+        position: relative;
+        right:55px;
+    }
+
+}
+
+@media (min-width: 1025px) {
+    input {
+        width: 500px;
+    }
+
+    .button {
+        position: relative;
+        left:5px;
+    }
+
+}
+
 footer {
     background: #071629;
     color: white;
@@ -440,3 +585,16 @@ footer {
         padding: 40px 0;
     }
  }
+
+ @media (min-width: 601px) {
+    .footerdiv div {
+        padding: 30px 50px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .footerdiv div {
+        padding: 30px 120px;
+    }
+
+}

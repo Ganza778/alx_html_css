@@ -160,6 +160,35 @@ header {
     }
 }
 
+@media (min-width: 601px) {
+
+    header {
+        background-position: 44% 0;
+    }
+
+    .navbar {
+        padding: 25px 100px;
+    }
+
+    .lorem {
+        text-align: center;
+        font-size: 13px;
+        width: 1140px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .navbar {
+        padding: 25px 200px;
+    }
+
+    .lorem {
+        font-size: 15px;
+        text-align: center;
+        padding: 90px 250px;
+    }
+}
+
 /* what we do...*/
 .main {
     display: flex;
@@ -201,14 +230,17 @@ header {
     .main h1 {
         font-size: 15px;
     }
-.main p {
-    text-align: center;
-    font-size: 8px;
-    width: 200px;
-}
+
+    .main p {
+        text-align: center;
+        font-size: 8px;
+        width: 200px;
+    }
+
     .ipsum {
         flex-direction: column;
     }
+
     .ipsum div h2 {
         font-size: 10px;
     }
@@ -216,6 +248,28 @@ header {
     .ipsum div p {
         font-size: 8px;
         width: 150px;
+    }
+}
+
+@media (min-width: 601px) {
+    .ipsum {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .ipsum {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ipsum div p {
+        padding: 20px 0px;
+        width: 200px;
+        text-align: center;
+        font-size: 14px;
     }
 }
 
@@ -234,18 +288,21 @@ header {
     align-items: center;
     padding: 150px 300px 70px 300px;
 }
+
 .container h1 {
     font-size: 32px;
 }
+
 .containerp {
     width: 860px;
     padding: 40px;
     text-align: center;
 }
+
 .grid {
     display: flex;
     flex-direction: row;
-   
+
 }
 
 .element {
@@ -274,39 +331,97 @@ header {
         background-position: 47% 0;
     }
 
-  
-.container h1 {
-    font-size: 16px;
-    text-align: center;
-    width: 140px;
-   }
 
-   .containerp {
-    display: flex;
-    font-size: 13px;
-    padding: 40px 300px;
-   }
+    .container h1 {
+        font-size: 16px;
+        text-align: center;
+        width: 140px;
+    }
 
-   .grid {
-    flex-direction: column;
-    gap: 25px;
-   }
+    .containerp {
+        display: flex;
+        font-size: 13px;
+        padding: 40px 300px;
+    }
 
-   .element {
-    background-size: 140px 140px;
-   }
+    .grid {
+        flex-direction: column;
+        gap: 25px;
+    }
 
-   .element h2 {
-    font-size: 25px;
-    font-weight: bold;
+    .element {
+        background-size: 140px 140px;
+    }
+
+    .element h2 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .element p {
+        font-size: 12px;
+        padding: 12px;
+    }
 }
 
-.element p {
-    font-size: 12px;
-    padding: 12px;
+@media (min-width: 601px) {
+    .container h1 {
+        font-size: 25px;
+        width: 400px;
+    }
+
+    .containerp {
+        font-size: 13px;
+        width: 610px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .element {
+        background-size: 150px;
+    }
+
+    .grid h2 {
+        font-size: 25px;
+    }
+    .grid p {
+        font-size: 12px;
+    }
+}
+@media (min-width: 1025px) {
+    .container h1 {
+        text-align: center;
+        font-size: 32px;
+        width: 600px;
+    }
+
+    .containerp {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .element {
+        background-size: 160px;
+    }
+    .element h2 {
+        font-size: 32px;
+        font-weight: bold;
+    }
+    
+    .element p {
+        font-size: 15px;
+        padding: 20px;
+        width: 200px;
+    }
 }
 
-}
 
 
-      
